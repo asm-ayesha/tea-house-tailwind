@@ -25,56 +25,105 @@
 </head>
 
 <body>
- <!-- header section -->
+  <!-- header section -->
   <header class="flex justify-around  pt-15 mb-20">
-      <!-- text content -->
+    <!-- text content -->
+    <div>
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold">It's good <br>
+        tea time at The <br> Tea House</h1>
+
+      <br>
+
+      <p class="text-gray-500 font-medium w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+        Your Taste Buds.</p>
+      <br>
+
+      <button
+        class="flex font-bold bg-gradient-to-r from-orange-400 to-red-500 px-5 py-3 rounded-lg text-white gap-2 border-hidden">Explore
+        More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" class="size-6 ">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- image content -->
+    <div class="relative pt-17">
+      <!-- image -->
       <div>
-        <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold">It's good <br>
-          tea time at The <br> Tea House</h1>
 
-        <br>
-
-        <p class="text-gray-500 font-medium w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
-          Your Taste Buds.</p>
-        <br>
-
-        <button
-          class="flex font-bold bg-gradient-to-r from-orange-400 to-red-500 px-5 py-3 rounded-lg text-white gap-2 border-hidden">Explore
-          More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-6 ">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-          </svg>
-        </button>
+        <img class="w-full" src="./images/banner.png" alt="">
       </div>
 
-      <!-- image content -->
-      <div class="relative pt-17">
-        <!-- image -->
-        <div >
+      <!-- card -->
+      <div
+        class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-20 lg:top-118 ">
+        <!-- icon -->
+        <div><i class="fa-solid fa-star text-2xl text-amber-300"></i></div>
 
-          <img class="w-full" src="./images/banner.png" alt="">
+        <!-- text -->
+        <div class="ml-2">
+          <h2 class="lg:text-2xl font-bold">5.00</h2>
+          <p class="text-gray-500">Trust Pilot Ratings</p>
         </div>
+      </div>
 
-        <!-- card -->
-        <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-20 lg:top-118 ">
-          <!-- icon -->
-          <div><i class="fa-solid fa-star text-2xl text-amber-300"></i></div>
+    </div>
+  </header>
 
-          <!-- text -->
-          <div class="ml-2">
-            <h2 class="lg:text-2xl font-bold">5.00</h2>
-            <p class="text-gray-500">Trust Pilot Ratings</p>
+  <!-- main content -->
+  <main class="w-max mx-auto px-16 lg:px-10">
+
+    <!-- features setion design -->
+    <section>
+      <!-- text -->
+      <div class="text-center ">
+        <h2 class="font-extrabold text-5xl">Our Featured Products</h2>
+        <p class="font-medium text-base text-gray-500 w-4xl pt-6 leading-8 mb-20">There are many variations of passages
+          of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+          randomised words which don't look even slightly believable. </p>
+      </div>
+
+      <!-- cards -->
+      <div class="grid grid-cols-4 gap-6">
+        <!-- card-1 -->
+        <div class="rounded-xl hadow-[0_6px_10px_rgba(0,0,0,0.1)] bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+          <img class="mx-auto pt-4" src="./images/tea-2.png" alt="">
+          <div class="p-4 text-center">
+            <h4 class="font-bold text-xl">Milk Tea</h4>
+            <p class="text-gray-500 py-2 w-50 mx-auto">Creamer cloud be replaced by fresh milk</p>
           </div>
         </div>
 
+        <!-- card-2 -->
+        <div class="rounded-xl hadow-[0_6px_10px_rgba(0,0,0,0.1)] bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+          <img class="mx-auto pt-4" src="./images/tea-4.png" alt="">
+          <div class="p-4 text-center">
+            <h4 class="font-bold text-xl">Black Tea</h4>
+            <p class="text-gray-500 py-2 w-50 mx-auto">Creamer cloud be replaced by fresh milk</p>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+        <div class="rounded-xl hadow-[0_6px_10px_rgba(0,0,0,0.1)] bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+          <img class="mx-auto pt-4" src="./images/tea-3.png" alt="">
+          <div class="p-4 text-center">
+            <h4 class="font-bold text-xl">Lemon Tea</h4>
+            <p class="text-gray-500 py-2 w-50 mx-auto">Creamer cloud be replaced by fresh milk</p>
+          </div>
+        </div>
+
+        <!-- card-4 -->
+        <div class="rounded-xl hadow-[0_6px_10px_rgba(0,0,0,0.1)] bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+          <img class="mx-auto pt-4" src="./images/tea-1.png" alt="">
+          <div class="p-4 text-center">
+            <h4 class="font-bold text-xl">Green Tea</h4>
+            <p class="text-gray-500 py-2 w-50 mx-auto">Creamer cloud be replaced by fresh milk</p>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
 
-  <!-- main content -->
-  <main class="max-w-screen-xl mx-auto px-16 lg:px-10">
-
-   
-    
   </main>
 </body>
 
